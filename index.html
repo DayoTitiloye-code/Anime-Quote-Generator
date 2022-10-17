@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Naruto Clan Members</title>
+    <title>Anime Quote Generator</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
-        <h1>Naruto Clan Members</h1>
+        <h1 id="title">Anime Quote Generator</h1>
     </div>
-    
-    <div class="form">
-        <form>
-            <label for="clanName">Enter your Desired Clan:</label>
-            <input type="text" id="clanName" placeholder="Uzumaki">
-            <input type="submit" id="submit" value="See Clan Members">
-        </form>  
+    <div id="button">
+        <h3>Press this button to generate a random quote:</h3>
+        <button id="quote-generator" type="button"></button>
     </div>
-    
+
+    <section>
+        <h1 id="character-name"></h1>
+        <p>From:</p>
+        <h3 id="character-anime"></h3>
+        <p>Once said:</p>
+        <p id="character-quote"></p>
+    </section>
 </body>
+
 </html>
