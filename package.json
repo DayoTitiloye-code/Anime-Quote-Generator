@@ -1,0 +1,27 @@
+{
+  "name": "naruto-api",
+  "version": "1.0.0",
+  "description": "This is an application based around API usage to retrieve Naruto Clan mates on call.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll --env=jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DayoTitiloye-code/Naruto-Clan-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DayoTitiloye-code/Naruto-Clan-API/issues"
+  },
+  "homepage": "https://github.com/DayoTitiloye-code/Naruto-Clan-API#readme",
+  "dependencies": {
+    "jest-environment-jsdom": "^29.2.0",
+    "jsdom": "^20.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.2.0"
+  }
+}
